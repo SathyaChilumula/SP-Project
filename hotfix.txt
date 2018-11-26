@@ -1,0 +1,6 @@
+Defining variables in a playbook
+You can define variables directly in a playbook:
+
+- hosts: webservers
+  vars:
+    http_port: 80
